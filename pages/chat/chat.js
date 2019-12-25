@@ -1,7 +1,7 @@
 Page({
   data: {
     inputValue: '',
-    dialogs: [{num: 1, text: '你好'}, {num: 2, text: '呵呵'}],
+    dialogs: [{num: 1, text: 'hello'}, {num: 2, text: '呵呵'}],
   },
   onLoad() {},
   bindKeyInput(e) {
