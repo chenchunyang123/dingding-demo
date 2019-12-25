@@ -1,0 +1,30 @@
+.chat__content {
+  padding: 20rpx;
+  font-size: 30rpx;
+  line-height: 30rpx;
+}
+
+.chat__inputWrap {
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightblue;
+}
+
+.chat__myInput {
+  width: 500rpx;
+  border: 1rpx solid #ccc;
+}
+
+.chat__sendBtn {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+<view class="chat__content">
+  <block a:for="{{dialogs}}" >
+    <x-ask a:if="{{item.num === 1}}" text="{{item.text}}" key="{{index}}" />
+    <x-answer a:if="{{item.num === 2}}" text="{{item.text}}" key="{{index}}" />
+  </block>
+</view>
+<view class="chat__inputWrap">
+  <input class="chat__myInput" onInput="bindKeyInput" value="{{inputValue}}" />
+  <button class="chat__sendBtn" onTap="onSend">发送</button>
+</view>

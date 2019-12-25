@@ -1,0 +1,9 @@
+.answer__wrap {
+  display: flex;
+  margin-bottom: 40rpx;
+}
+
+.answer__wrap view {
+  background-color: pink;
+  padding: 10rpx 20rpx;
+}

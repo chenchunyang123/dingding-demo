@@ -1,0 +1,5 @@
+<view class="ask__wrap">
+  <view>
+    {{text}}
+  </view>
+</view>

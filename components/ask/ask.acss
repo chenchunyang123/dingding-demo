@@ -1,0 +1,10 @@
+.ask__wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40rpx;
+}
+
+.ask__wrap view {
+  background-color: lightblue;
+  padding: 10rpx 20rpx;
+}

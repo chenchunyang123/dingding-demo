@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "chat",
+  "usingComponents": {
+    "x-ask": "/components/ask/ask",
+    "x-answer": "/components/answer/answer"
+  }
+}
